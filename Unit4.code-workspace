@@ -1,0 +1,20 @@
+{
+  "folders": [
+	{
+		"path": "../python_control_flow"
+	},
+	{
+		"path": "../intro_to_python"
+	},
+	{
+		"path": "../python-control-flow-lab"
+	},
+	{
+		"path": "../python_functions"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {}
+}
