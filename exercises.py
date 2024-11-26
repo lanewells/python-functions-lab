@@ -141,3 +141,38 @@ def product(*args):
 
 print('Exercise 8:', product(2, 5, 5))
 print('Exercise 8:', product(-1, 4))
+
+# Exercise 9: Basic Calculator
+#
+# Create a function named `basic_calculator` that takes three arguments: 
+# two numbers and a string representing an operation ('add', 'subtract', 'multiply', 'divide'). 
+# Perform the provided operation on the two numbers. In operations where the order of numbers is important, 
+# treat the first parameter as the first operand and the second parameter as the second operand.
+#
+# Examples:
+# basic_calculator(10, 5, 'subtract') should return 5.
+# basic_calculator(10, 5, 'add') should return 15.
+# basic_calculator(10, 5, 'multiply') should return 50.
+# basic_calculator(10, 5, 'divide') should return 2.
+#
+# Define the function and then call it below.
+def basic_calculator(a, b, oper):
+    oper = oper.lower()
+    if oper == 'multiply':
+        return a * b
+    elif oper == 'divide':
+        return a / b
+    elif oper == 'add':
+        return a + b
+    elif oper == 'subtract':
+        return a - b
+    else:
+        return 'Please enter valid parameters'
+
+
+print('Exercise 9 Result:', basic_calculator(10, 5, "subtract"))
+print('Exercise 9 Result:', basic_calculator(10, 5, "add"))
+print('Exercise 9 Result:', basic_calculator(10, 5, "Multiply"))
+print('Exercise 9 Result:', basic_calculator(10, 5, "DIVIDE"))
+print('Exercise 9 Result:', basic_calculator(10, 5, "lolidk"))
+
